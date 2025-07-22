@@ -1,0 +1,19 @@
+:root {
+  --primary-color: green;
+  --secondary-color: rgb(223, 214, 214);
+  --fs-title: 50px;
+}
+
+body {
+  background-color: var(--secondary-color);
+}
+
+.title {
+  color: var(--primary-color);
+  font-size: var(--fs-title);
+}
+
+#container {
+  height: 300px;
+  background-color: rgb(247, 237, 224);
+}

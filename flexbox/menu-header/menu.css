@@ -1,0 +1,23 @@
+:root {
+  --gap-p: 20px;
+  --primary-color: rgb(87, 155, 87);
+  --secondary-color: rgb(175, 170, 170);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--primary-color);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  gap: var(--gap-p);
+  background-color: var(--secondary-color);
+}
+
+.social-media {
+  display: flex;
+  gap: 20px;
+}

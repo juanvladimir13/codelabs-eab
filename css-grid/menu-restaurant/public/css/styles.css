@@ -1,0 +1,80 @@
+:root {
+  --text-orange: #fa4f01;
+  --text-white: #eaeaea;
+  --text-gray: #2c2a2b;
+}
+
+body {
+  background-color: var(--text-gray);
+}
+
+h1 {
+  color: var(--text-white);
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 120px;
+  justify-items: center;
+  max-width: 600px;
+  margin: 0px auto;
+}
+
+.producto {
+  display: grid;
+  grid-template-areas:
+    "titulo titulo titulo"
+    "entero medio cuarto"
+    "detalle detalle detalle"
+  ;
+  justify-items: center;
+  max-width: 600px;
+  margin: 0px auto;
+}
+
+.producto>h2 {
+  grid-area: titulo;
+  justify-items: center;
+  color: var(--text-orange);
+  font-size: 32px;
+}
+
+#entero-container {
+  grid-area: entero;
+}
+
+#medio-container {
+  grid-area: medio;
+}
+
+#cuarto-container {
+  grid-area: cuarto;
+}
+
+#producto-detalle {
+  grid-area: detalle;
+  justify-items: center;
+}
+
+.producto>div> :nth-child(1) {
+  margin: 0px;
+  color: var(--text-white);
+  font-size: 24px;
+}
+
+.producto>div> :nth-child(2) {
+  margin: 0px;
+  color: var(--text-orange);
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#producto-detalle> :nth-child(1) {
+  color: var(--text-orange);
+  font-size: 32px;
+}
+
+#producto-detalle> :nth-child(2) {
+  color: var(--text-white);
+}

@@ -1,0 +1,33 @@
+body {
+    margin: 0px;
+}
+
+:root {
+    --primary-color: rgb(151, 151, 245);
+    --secondary-color: #464545;
+    --fs-title: 22px;
+    --fs-subtitle: 18px;
+}
+
+#p-title {
+    color: var(--primary-color);
+    font-size: var(--fs-title);
+}
+
+.p-subtitle {
+    font-size: var(--fs-subtitle);
+    color: var(--secondary-color);
+    margin-bottom: 0px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+footer {
+    height: 150px;
+    background-color: var(--primary-color);
+}
+
+.p-subtitle:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}

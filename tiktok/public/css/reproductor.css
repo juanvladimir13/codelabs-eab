@@ -1,0 +1,68 @@
+:root {
+  --text-20: 20px;
+  --text-18: 18px;
+  --text-16: 16px;
+  --negro: #4b4747e5;
+  --plomo: rgba(158, 153, 153, 0.863);
+}
+
+#artista-person>h2 {
+  color: var(--negro);
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+#artista-person>h2>span {
+  color: var(--plomo);
+}
+
+#artista-person>p {
+  color: var(--plomo);
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#artista>img {
+  border-radius: 50%;
+}
+
+#artista {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+#controls {
+  width: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+#controls>div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+#controls>div>img {
+  height: 32px;
+}
+
+#controls>div>span {
+  color: var(--plomo);
+}
+
+#video>video {
+  height: 350px;
+}
+
+#video-space {
+  width: 75px;
+}
+
+#video {
+  display: flex;
+  gap: 10px;
+}
